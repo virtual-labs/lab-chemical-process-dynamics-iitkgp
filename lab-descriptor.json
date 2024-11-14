@@ -1,141 +1,88 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Chemical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-chemical-engineering",
+    "code": "CHEMENG"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
+  "lab": "Chemical Process Dynamics",
+  "lab_display_name": "Chemical Process Dynamics",
+  "phase": 2,
+  "collegeName": "IITKGP",
+  "baseUrl": "cpd-iitkgp.vlabs.ac.in",
+  "introduction": "We, at IIT Kharagpur have developed a few software modules for conducting laboratory experiments virtually. The modules aim to provide a learning experience, similar to the hands on one in a real laboratory, through use of computer simulator and graphic tools. The modules are to be run through internet, and are primarily intended for a wider audience, beyond classroom. The modules cover the dynamics of process variables in traditional systems (e.g., heat exchanger, reactor), and recent methods (e.g., membrane separation, bioreactor).",
+  
+  "experiments": [
     {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
+      "name": "Stirred Tank Heater",
+      "short-name": "stirred-tank-heater",
+      "repo": "https://github.com/virtual-labs/exp-stirred-tank-heater-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Heat Exchanger",
+      "short-name": "heat-exchanger",
+      "repo": "https://github.com/virtual-labs/exp-heat-exchanger-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Flash Drum",
+      "short-name": "flash-drum",
+      "repo": "https://github.com/virtual-labs/exp-flash-drum-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Continuous Stirred Tank Reactor",
+      "short-name": "continuous-stirred-tank-reactor",
+      "repo": "https://github.com/virtual-labs/exp-continuous-stirred-tank-reactor-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
+      "name": "Adsorption",
+      "short-name": "adsorption",
+      "repo": "https://github.com/virtual-labs/exp-adsorption-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Feedbatch Fermentor",
+      "short-name": "feedbatch-fermentor",
+      "repo": "https://github.com/virtual-labs/exp-feedbatch-fermentor-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Membrane Separation",
+      "short-name": "membrane-separation",
+      "repo": "https://github.com/virtual-labs/exp-membrane-separation-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Polymerization reactor",
+      "short-name": "polymerization-reactor",
+      "repo": "https://github.com/virtual-labs/exp-polymerization-reactor-iitkgp",
+      "tag": "v1.0.0",
+      "deploy": true
     }
   ],
   "targetAudience": {
-    "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
-    ],
+  "UG":[
+    "Undergraduate students students of Chemical Engineering"
+  ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "Post-graduate students of Chemical Engineering"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+    
+  "objective": "This laboratory course introduces the dynamic of chemical processes, used in industry. The chemical processes can have multiple steady states and non-linear dynamics. The impact is far and wide ,affecting the product quality in core industry to the operation of Bio-medical devices. To underscore the importance of the subject , one may cite fire as an example of a chemical process that is sustained through controlled supply of fuel and air. With inadequate supply, the fire gets extinguished. with more then adequate supply , the fire becomes uncontrollable and devastating. In this course, the following processes are introduced with detailed theoretical treatment, assignment, reference, and video recording, of a live demonstration.\n\n In the virtual experiment, the user sets the operating parameters for each process alongside the equipment and the computer screen. Also, the user sets the unit e.g., valve ,pump, heater, stirrer on or off at appropriate instance, as it is done for real experiment. The equipment and schematics are presented, as they appear in real laboratory by extensive use of animation and graphics tolls. The resulting value of process variable are provided to the user in an interactive mode for further analysis. The user has to record the transient response arising from step change in one operating parameter, and analyses the time constant. The users' input of these parameters will help in monitoring the performance of the user in real time by the help of software. Also, a quiz will be conduct to evaluate user level of understanding .The answers are checked in real time through in-built program.",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The lab contents are chosen such that it covers the syllabi of the Chemical Engineering course's of various universities.",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "IIT Kharagpur"
     ]
-
- 
+  }
 }
